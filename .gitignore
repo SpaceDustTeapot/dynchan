@@ -1,0 +1,73 @@
+# -*- mode: gitignore; -*-
+
+#################
+# Node.js / NPM #
+#################
+
+# [NPM] dependency directories
+node_modules
+
+# [NPM] cache
+.npm
+
+# [NPM] output of 'npm pack'
+*.tgz
+
+# [ESLint] cache
+.eslintcache
+
+# [Node.js] REPL history
+.node_repl_history # sneaky little-
+
+# no Yarn integrity files
+.yarn-integrity
+
+
+###########
+# Runtime #
+###########
+
+# no logs
+logs
+*.log
+npm-debug.log*
+
+# no PIDs
+pids
+*.pid
+*.seed
+*.pid.lock
+
+
+###############
+# SublimeText #
+###############
+
+# no cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# no configuration
+*.sublime-workspace
+*.sublime-project
+GitHub.sublime-settings
+
+
+#########
+# Emacs #
+#########
+
+# no garbage
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+
+# hide my notes
+notes

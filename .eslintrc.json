@@ -1,0 +1,23 @@
+{
+  "extends": ["eslint:recommended"],
+
+  "env": {
+    "node":   true,
+    "mocha":  true
+  },
+
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+
+  "globals": {
+    "dynrequire": true,
+    "dynresolve": true,
+    "dynpackage": true
+  },
+
+  "rules": {
+    "brace-style":  [1, "stroustrup"],
+    "indent":       [1, 2]
+  }
+}
