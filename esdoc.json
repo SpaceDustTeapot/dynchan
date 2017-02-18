@@ -1,0 +1,9 @@
+{
+  "title": "Dynchan Source",
+  "source": "./lib",
+  "destination": "./doc/code",
+  "test": {
+    "type": "mocha",
+    "source": "./test"
+  }
+}
